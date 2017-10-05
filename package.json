@@ -1,11 +1,8 @@
 {
-  "name": "preferred-eslint-config",
+  "name": "eslint-config-ahmed",
   "version": "1.0.0",
-  "description": "Personal Preferred ESlint Configration",
+  "description": "Preferred ESlint Configration",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AhmedAbdulrahman/preferred-eslint-config.git"
