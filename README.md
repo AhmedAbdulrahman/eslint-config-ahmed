@@ -1,4 +1,4 @@
-# preferred-eslint-config
+# eslint-config-ahmed
 
 #### Prefered ESLint Configuration for my personal use.
 
@@ -6,7 +6,7 @@
 
 Run
 ```bash
-npm install eslint-config-standard
+npm install eslint-config-ahmed
 ```
 
 ## Usage
@@ -14,6 +14,6 @@ To use this config, add this to your .eslintrc file:
 
 ```bash
 {
-  "extends": "preferred-eslint-config"
+  "extends": "eslint-config-ahmed"
 }
 ```
