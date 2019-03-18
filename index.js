@@ -4,7 +4,7 @@ const builtinRules = require("./rules/builtin");
 const reactRules = require("./rules/react");
 const importRules = require("./rules/import");
 
-function baseRules({
+function baseConfig({
   builtin = true,
   import: import_ = false,
   react = false,
@@ -16,4 +16,4 @@ function baseRules({
   );
 }
 
-module.exports = baseRules;
+module.exports = baseConfig;
