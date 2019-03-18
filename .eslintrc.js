@@ -1,6 +1,6 @@
 "use strict";
 
-const baseRules = require(".");
+const baseConfig = require(".");
 
 module.exports = {
   root: true,
@@ -9,7 +9,7 @@ module.exports = {
     es6: true,
     node: true,
   },
-  rules: Object.assign({}, baseRules({ import: true }), {
+  rules: Object.assign({}, baseConfig({ import: true }), {
     "prettier/prettier": "error",
   }),
 };
